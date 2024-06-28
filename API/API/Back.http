@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:5000
+
+### Alterar Tarefa
+PATCH  {{baseUrl}}/tarefas/alterar/6a8b3e4d-5e4e-4f7e-bdc9-9181e456ad0e
+
+### Listar Tarefas não concluidas
+GET  {{baseUrl}}/tarefas/naoconcluidas
+
+### Listar Tarefas concluidas
+GET  {{baseUrl}}/tarefas/concluidas
+
+### Listar Tarefas
+GET  {{baseUrl}}/tarefas/listar
